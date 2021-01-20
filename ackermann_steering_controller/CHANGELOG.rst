@@ -2,6 +2,20 @@
 Changelog for package ackermann_steering_controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.17.2 (2021-01-20)
+-------------------
+
+0.17.1 (2020-12-05)
+-------------------
+
+0.17.0 (2020-05-12)
+-------------------
+
+0.16.1 (2020-04-27)
+-------------------
+* Remove gazebo_ros test dependency
+* Contributors: Bence Magyar
+
 0.16.0 (2020-04-16)
 -------------------
 * Bump CMake version to prevent CMP0048

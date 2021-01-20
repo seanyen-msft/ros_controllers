@@ -2,6 +2,31 @@
 Changelog for package joint_trajectory_controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.17.2 (2021-01-20)
+-------------------
+* JointTrajectoryController: Fix tolerance checking to use state error…
+  …from the correct joints
+  This fix was already applied to noetic-devel branch. ef2272de81bffe4b1e4a7fc3dc59d4f4c3e6cdb8
+* Contributors: Dean Reading
+
+0.17.1 (2020-12-05)
+-------------------
+* Fix missing virtual destructor
+* Contributors: Tyler Weaver
+
+0.17.0 (2020-05-12)
+-------------------
+* Add extension point in update function to allow derived classes to perform e.g. additional checks.
+* The stop- and hold-trajectory creation is moved into separate classes,
+  to allow derived classes to re-use the stop- and hold-trajectory
+  creation code.
+* The old desired state and the old time data are now also stored,
+  to allow derived classes to perfrom more comprehensive checks, etc.
+* Contributors: Pilz GmbH and Co. KG, Bence Magyar
+
+0.16.1 (2020-04-27)
+-------------------
+
 0.16.0 (2020-04-16)
 -------------------
 * Bump CMake version to prevent CMP0048
